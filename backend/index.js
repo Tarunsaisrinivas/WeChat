@@ -5,7 +5,7 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: true, // Replace with your frontend URL
     credentials: true, // Enable cookies for cross-origin requests
   }));
 
